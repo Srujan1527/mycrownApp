@@ -1,0 +1,24 @@
+@font-face {
+  font-family: imported;
+  src: url("./fonts/OpenSansCondensed-Light.ttf");
+}
+body {
+  margin: 0;
+  padding: 20px 40px;
+  font-family: imported;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
